@@ -1,0 +1,136 @@
+:root{
+  --primary-color:#fff;
+  --secondary-color:#000;
+ --utback-color:#e2e3e6;
+ --lighcd-color:#ffffff;
+ --darkcd-color:#000000;
+
+ 
+}
+
+.dark-verson{
+  --primary-color:#000;
+  --secondary-color:#fff;
+  --utback-color:#9ca0a8;
+  --lighcd-color:#000000;
+  --darkcd-color:#f7f7f7;
+  --donlgt-color:#000000;
+  --darkcd-color:#ffffff;
+}
+.donation{
+ background-color: var(--donlgt-color);
+}
+.bgdonation{
+  background-color: var(--darkcd-color);
+}
+#micon{
+  width: 30px;
+
+}
+.heading{
+  color: var(--secondary-color);
+}
+.cardtxt{
+  color: var(--secondary-color);
+}
+.youtube{
+  background-color: var(--utback-color);
+}
+.lightcardbg{
+  background-color: var(--darkcd-color);
+  border: none;
+}
+.darkcardbg{
+
+  background-color: var(--lighcd-color);
+}
+.wrapper{
+    margin-top: 50px;
+    background-color: transparent;
+  }
+  
+  .wrapper h1{
+   font-family: 'Courier New', Courier, monospace;
+    font-size: 52px;
+    margin-bottom: 60px;
+    text-align: center;
+  }
+  .highlight {
+    height: 2em;
+    background: rgba(255, 0, 0, 0.2);
+    vertical-align: middle;
+  }
+  
+  .highlight:hover {
+    background: rgba(255, 0, 0, 0.5);
+  }
+  .team{
+    display: flex;
+    justify-content: center;
+    width: auto;
+    text-align: center;
+    flex-wrap: wrap;
+    background-color: transparent;
+  }
+  
+  .team .team_member{
+    background: var(--primary-color);
+    margin: 10px;
+    margin-bottom: 50px;
+    width: 300px;
+    padding: 20px;
+    line-height: 20px;
+    color: #8e8b8b;  
+    position: relative;
+    border-radius:12px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  }
+  
+  .team .team_member h3{
+    color: var(--secondary-color);
+    font-size: 26px;
+    margin-top: 50px;
+  }
+  
+  .team .team_member p.role{
+    color: orange;
+    margin: 12px 0;
+    font-size: 13px;
+    font-weight:bold;
+    text-transform: uppercase;
+  }
+  
+  .team .team_member .team_img{
+    position: absolute;
+    top: -50px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: var(--primary-color);
+    border:5px solid orange;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  }
+  .myshadow{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+  }
+  .team .team_member .team_img img{
+    width: 90px;
+    height: 90px;
+    padding: 5px;
+    border-radius: 50%;
+  }
+  
+  .credit{
+    text-align: center;
+    color:var(--secondary-color);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  
+  .credit a{
+    text-decoration: none;
+    color:var(--secondary-color);
+    font-weight: bold;
+  }
